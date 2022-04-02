@@ -1,0 +1,88 @@
+body{
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputs{
+    width: 60%;
+    justify-content: center;
+}
+.inp{
+    margin: 2%;
+    width: 10vw;
+}
+.input{
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 4px;
+    width: 50vw;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.btns{
+    margin-top: 5%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    padding: 7px;
+    border-radius: 7px;
+    width: 30vw;
+    transition: 0.4s;
+
+} 
+
+button:hover{
+    color: white;
+    background: gray;
+    transition: 0.4s;
+}
+
+.table1{
+    width: 100%;
+}
+
+td{
+    padding: 5px;
+    width: 20%;
+}
+th{
+    width: 20%;
+    padding: 5px;
+}
+.modalEditar{
+    width: 40%;
+    margin-top: -10%;
+    padding: 16px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.input2{
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 4px;
+    width: 30vw;
+    font-family: 'Courier New', Courier, monospace;  
+}
+.inp2{
+    margin: 2%;
+    width: 10vw;
+}
+.btnSalvar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+#resultado{
+    margin-top: 10px;
+    width: 90%;
+}
+p:hover{
+    cursor: pointer;
+}

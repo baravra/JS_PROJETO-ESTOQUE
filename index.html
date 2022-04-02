@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO ESTOQUE</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1 align="center">Cadastro de produtos</h1>
+    <!-- <form method="POST" class="forms" id="forms"> -->
+        <div class="inputs" id="inputs">
+            <div class="inp" id="inp">
+                <label for="produto">PRODUTO: </label>
+                <input class="input"type="text" id="produto" name="produto" class="produto">
+            </div>
+            <div class="inp" id="inp">
+                <label for="estoque">ESTOQUE: </label>
+                <input class="input"type="number" id="estoque">
+            </div>
+            <div class="inp" id="inp">
+                <label for="preco">PRECO: </label>
+                <input class="input"type="number" id="preco">
+            </div>
+        </div>
+        <div class="btns" id="btns">
+            <button id="cadastar">CADASTRAR</button>
+        </div>
+    <!-- </form> -->
+
+    <div id="resultado">
+        <table class="table1" id="table1">
+            <tr>
+                <th></th>
+                <th>PRODUTO</th>
+                <th>ESTOQUE</th>
+                <th>PRECO</th>
+                <th></th>
+            </tr>
+            <tr class="vazio" id="vazio">
+                <td colspan="5" align="center">CADASTRE O PRODUTO</td>
+            </tr>
+            
+        </table>
+    </div>
+    <div id="modalEditar" class="modalEditar">
+        <div class="inputs2" id="inputs2">
+            <div class="inp2" id="inp2">
+                <label for="produto2">PRODUTO: </label>
+                <input class="input2" type="text" id="produto2" name="produto2">
+            </div>
+            <div class="inp2" id="inp2">
+                <label for="estoque2">ESTOQUE: </label>
+                <input  class="input2" type="number" id="estoque2">
+            </div>
+            <div class="inp2" id="inp2">
+                <label for="preco2">PRECO: </label>
+                <input class="input2" type="number" id="preco2">
+            </div>
+        </div>
+        <div class="btnSalvar" id="btnSalvar">
+            <button id="salvar">SALVAR</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
